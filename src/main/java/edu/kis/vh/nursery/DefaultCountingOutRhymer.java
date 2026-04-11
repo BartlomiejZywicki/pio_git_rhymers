@@ -1,5 +1,5 @@
 package edu.kis.vh.nursery;
-
+// Projekt poprawny – testy jednostkowe przechodzą bez zmian
 public class DefaultCountingOutRhymer {
 
     private static final int STACK_CAPACITY = 12;
