@@ -21,6 +21,9 @@ public class DefaultCountingOutRhymer {
     public boolean isFull() {
         return total == STACK_CAPACITY - 1;
     }
+    public int getTotal() {
+        return total;
+    }
 
     protected int peekaBoo() {
         if (callCheck())
